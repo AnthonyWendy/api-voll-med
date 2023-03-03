@@ -13,7 +13,6 @@ public class MedicoController {
     @PostMapping("new")
     public void register(@RequestBody DadosCadastroMedico doctor) {
         System.out.println(doctor);
-
     }
 
 }
